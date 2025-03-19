@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+:root {
+    --heading-background-color: #D1E5F0;
+    --border: 3px solid #474C49;
+    --color: #417D38;
+    --text-color: #336699;
+}
+
+.henny-penny-regular {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--heading-background-color);
+    text-decoration-color: var(--text-color);
+    border: var(--border);
+    font-family: "Henny Penny", luminari, cursive;
+}
+
+h2 {
+    text-align: center;
+    text-decoration-color: var(--text-color);
+    
+}
