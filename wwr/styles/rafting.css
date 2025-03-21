@@ -16,7 +16,6 @@
 
 * {
     background-color: var(--primary-color);
-
 }
 
 .logo-box{
@@ -30,7 +29,6 @@ a {
 
 .hero {
     position: relative;
-
 }
 
 .hero img {
@@ -48,7 +46,6 @@ h1 {
     border: var(--accent-color-2);
     font-family: "Henny Penny", Luminari, cursive;
 }
-
 
 article {
     top: 75%;
@@ -74,7 +71,7 @@ h2 {
 
 p {
     text-align: center;
-    color: vars(--accent-color);
+    color: var(--accent-color-2);
     font-family: Tahoma, Verdana, sans-serif;
 }
 
@@ -87,7 +84,6 @@ p {
 }
 
 footer img {
-    max-width: 50px;
+    max-width: 25px;
     height: auto;
-
 }
