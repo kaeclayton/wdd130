@@ -28,12 +28,9 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    text-align: center;
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-    border: var(--accent-color-2);
-    font-family: "Henny Penny", Luminari, cursive;
+.hero {
+    position: relative;
+
 }
 
 .hero img {
@@ -42,6 +39,30 @@ h1 {
     height: auto;
 }
 
+h1 {
+    top:25%;
+    position:absolute;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border: var(--accent-color-2);
+    font-family: "Henny Penny", Luminari, cursive;
+}
+
+
+article {
+    top: 75%;
+    display: block;
+    position: absolute;
+    background-color: var(--accent-color);
+    opacity: 0.8;
+}
+
+article img {
+    max-width: 200px;
+    height: auto;
+    float: right;
+}
 
 h2 {
     text-align: center;
@@ -63,4 +84,10 @@ p {
     align-items: center;
     padding: 1px;
     flex-wrap: wrap;
+}
+
+footer img {
+    max-width: 50px;
+    height: auto;
+
 }
