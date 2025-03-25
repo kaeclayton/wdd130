@@ -1,12 +1,13 @@
 :root{
     --color: steelblue;
-
+    
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Tahoma, Verdana, Geneva;
 }
 
 header, .grid, footer {
@@ -34,12 +35,9 @@ nav a {
 h1 {
     color: var(--color);
     border-bottom: 1px solid #000;
+    font-family: Luminari, Calibri, "Trebuchet MS";
 }
 
-.grid {
-    display:grid;
-    align-items: center;
-}
 main {
     grid-column: 2/3;
     margin: 1rem;
@@ -54,8 +52,9 @@ main img {
     float: right;
 }
 
-main p {
+p {
     padding: 0;
+    
 }
 
 aside {
@@ -87,6 +86,11 @@ footer {
 }
 
 /* Class Selectors */
+
+.grid {
+    display:grid;
+    align-items: center;
+}
 
 .box {
     margin: 1rem;
