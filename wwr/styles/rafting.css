@@ -2,9 +2,9 @@
 
 :root {
     --secondary-color: #D1E5F0;
-    --accent-color-2: 3px solid #474C49;
-    --accent-color: #417D38;
-    --primary-color: #336699;
+    --accent-color-2: 3px solid #242424;
+    --accent-color: #56B14E;
+    --primary-color: #6699CC;
     --font-style: tahoma;
 }
 
@@ -162,29 +162,20 @@ p {
     grid-area: 2/3/5/4;
 }
 
-.images {
-    display: flex;
-    justify-content: center;
-}
 
-.images h2 {
-    top: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.images div {
+    display:flex;
 }
 
 .images figure {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
     padding: 5px;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     font-family: Tahoma, Verdana;
 }
-
 footer {
     background-color: var(--accent-color);
 }
