@@ -21,7 +21,6 @@
 header {
     margin: auto;
     display: grid;
-    grid-template: 5/3;
     align-items: center;
     border-bottom: var(--accent-color-2);
     max-width: 100%;
@@ -166,21 +165,24 @@ p {
 .images {
     display: flex;
     justify-content: center;
-
 }
 
 .images h2 {
-
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .images figure {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
-    padding: 1px;
+    padding: 5px;
     flex-wrap: wrap;
+    font-family: Tahoma, Verdana;
 }
 
 footer {
