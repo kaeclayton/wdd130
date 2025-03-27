@@ -15,16 +15,68 @@
 }
 
 * {
+    background-color: var(--accent-color);
+}
+
+header {
+    margin: auto;
+    display: grid;
+    grid-template: 5/3;
+    align-items: center;
+    border-bottom: var(--accent-color-2);
+    max-width: 100%;
     background-color: var(--primary-color);
 }
 
-.logo-box{
+
+.logo-box {
     display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+}
+
+.logo-box img {
+    margin: 0 0.25rem 0 1rem;
+    grid-area: 1/1/4/2;
+    width: 100px;
+    height: auto;
+    background-color: var(--primary-color);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
+.navigation {
+    display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: var(--primary-color);
+}
+
+.navigation a {
+    padding: 25px;
+    background-color: var(--primary-color);
+}
+
+.navigation a:hover {
+    color: var(--accent-color-2);
+    text-decoration: underline;
 }
 
 a {
+    flex: 1 1 auto;
+    display: block;
+    justify-content: space-around;
     text-decoration: none;
+    font-family: Tahoma, Verdana;
+    background-color: var(--primary-color);
 }
 
 .hero {
@@ -38,8 +90,8 @@ a {
 }
 
 h1 {
-    top:25%;
-    position:absolute;
+    top: 5%;
+    position: absolute;
     text-align: center;
     background-color: var(--secondary-color);
     color: var(--accent-color);
@@ -47,15 +99,15 @@ h1 {
     font-family: "Henny Penny", Luminari, cursive;
 }
 
-article {
+.hero article {
     top: 75%;
     display: block;
     position: absolute;
     background-color: var(--accent-color);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
-article img {
+.hero article img {
     max-width: 200px;
     height: auto;
     float: right;
@@ -75,15 +127,70 @@ p {
     font-family: Tahoma, Verdana, sans-serif;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 3fr;
+    background-color: var(--primary-color);
+}
+
+.history h2 {
+    grid-area: 1/1/2/4;
+}
+
+.history article {
+    display:grid;
+    background-color: var(--primary-color);
+    grid-row: 2/4;
+}
+
+.history p {
+    background-color: var(--primary-color);
+}
+
+.first {
+    display:grid;
+    grid-area: 2/1/5/2;   
+}
+
+.history article img {
+    display: grid;
+    grid-area: 2/2/5/3;
+}
+
+.second {
+    display: grid;
+    grid-area: 2/3/5/4;
+}
+
 .images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+
+}
+
+.images h2 {
+
+}
+
+.images figure {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    max-width: 200px;
+    height: auto;
     padding: 1px;
     flex-wrap: wrap;
 }
 
+footer {
+    background-color: var(--accent-color);
+}
+footer nav {
+    background-color: var(--accent-color);
+}
 footer img {
     max-width: 25px;
     height: auto;
+    float: right;
 }
