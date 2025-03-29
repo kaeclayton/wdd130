@@ -3,7 +3,7 @@
 :root {
     --secondary-color: #D1E5F0;
     --accent-color-2: 3px solid #242424;
-    --accent-color: #56B14E;
+    --accent-color: #11700a;
     --primary-color: #6699CC;
     --font-style: tahoma;
 }
@@ -15,7 +15,7 @@
 }
 
 * {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
 }
 
 header {
@@ -112,6 +112,11 @@ h1 {
     float: right;
 }
 
+.hero p {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
+
 h2 {
     text-align: center;
     background-color: var(--secondary-color);
@@ -125,7 +130,7 @@ p {
     color: var(--accent-color-2);
     font-family: Tahoma, Verdana, sans-serif;
 }
-
+ 
 .history {
     display: grid;
     grid-template-columns: repeat(3,1);
