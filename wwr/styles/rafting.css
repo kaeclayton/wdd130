@@ -198,7 +198,6 @@ p {
     grid-area: 2/3/5/4;
 }
 
-
 .images div {
     display:flex;
 }
@@ -214,12 +213,15 @@ p {
     flex-wrap: wrap;
     font-family: var(--font-style);
 }
+
 footer {
     background-color: var(--accent-color);
 }
+
 footer nav {
     background-color: var(--accent-color);
 }
+
 footer img {
     max-width: 50px;
     height: auto;
@@ -379,7 +381,7 @@ button:hover {
 .home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
 }
 
 .div1 {
@@ -417,22 +419,52 @@ button:hover {
     width: 75%;
 }
 
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2rem;
+}
+
+.trips img {
+    position: relative;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.trips p {
+    position: absolute;
+}
+
+.booking {
+    display: flex;
+}
+
 .rafting-table {
     width: 65%;
     border-collapse: collapse;
     margin: 1rem 0;
     font-family: var(--font-style);
 }
-  
-  .rafting-table th,
+
+.rafting-table th,
   .rafting-table td {
     padding: 12px 15px;
     text-align: left;
     border: 2px solid var(--accent-color);
 }
   
-  .rafting-table th {
+.rafting-table th {
     background-color: var(--secondary-color);
     color: var(--accent-color);
     font-weight: bold;
+}
+
+.booking button {
+    float: right;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+
 }
