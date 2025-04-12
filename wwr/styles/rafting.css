@@ -103,6 +103,7 @@ a:hover {
     display: block;
     width: 100%;
     height: auto;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -118,11 +119,13 @@ h1 {
 }
 
 .hero article {
-    top: 75%;
+    top: 70%;
     display: block;
     position: absolute;
     background-color: var(--accent-color);
     opacity: 0.9;
+    padding-top: 20px;
+    
 }
 
 .hero article img {
@@ -130,6 +133,7 @@ h1 {
     height: auto;
     float: right;
     margin-right: 25px;
+    background-color: var(--accent-color);
 }
 
 .hero p {
@@ -380,11 +384,12 @@ button:hover {
 .home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .div1 {
     grid-column: 1/2;
+    padding-left: 30px;
 }
 
 .home img {
@@ -401,15 +406,12 @@ button:hover {
 }
 
 .div2 {
+    padding-left: 40px;
     grid-column: 3/4;
 }
 
-.purpose {
-    display: flex;
-}
-
-.purpose h2 {
-    width: 75%;
+.div3 {
+    padding-left: 40px;
 }
 
 .trips {
