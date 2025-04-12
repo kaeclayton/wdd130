@@ -384,16 +384,15 @@ button:hover {
 }
 
 .div1 {
-    display: grid;
     grid-column: 1/2;
 }
 
 .home img {
     max-height: 75%;
+    align-self: center;
 }
 
 .home form {
-    display: grid;
     grid-column: 2/3;
 }
 
@@ -402,16 +401,11 @@ button:hover {
 }
 
 .div2 {
-    display: grid;
     grid-column: 3/4;
 }
 
 .purpose {
-    position: relative;
-}
-
-.purpose img {
-    position: absolute;
+    display: flex;
 }
 
 .purpose h2 {
